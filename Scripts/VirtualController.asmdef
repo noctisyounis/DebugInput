@@ -2,7 +2,8 @@
     "name": "VirtualController",
     "rootNamespace": "",
     "references": [
-        "GUID:63ebd60d5c68886498ecfee04b5d6a12"
+        "GUID:63ebd60d5c68886498ecfee04b5d6a12",
+        "GUID:24bd51b4ce6b67146acc27473c671194"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

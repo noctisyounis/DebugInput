@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6765503699763833799}
   - component: {fileID: 7643644469198798901}
-  - component: {fileID: 3101579283084727339}
+  - component: {fileID: 8533145905726479614}
   m_Layer: 0
   m_Name: ControllerWrapper
   m_TagString: Untagged
@@ -53,26 +53,19 @@ MonoBehaviour:
   _sourceRectTransform: {fileID: 6765503699763833799}
   _targetRectTransform: {fileID: 8268452146439932473}
   _targetImage: {fileID: 8268452146439932472}
---- !u!114 &3101579283084727339
+--- !u!114 &8533145905726479614
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6765503699763833798}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
+  m_Script: {fileID: 11500000, guid: bc7219c1c9a677047b8aa8e4530d9427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 528
-    y: 317.5
-    width: 500
-    height: 420
-  anchorVector: {x: 0, y: 0}
+  _target: {fileID: 6765503699763833798}
 --- !u!1001 &6765503699636441861
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,12 +1,13 @@
 {
 	"name": "com.transmedia.debuginput",
 	"displayName":"Debug Input",
-	"version": "1.0.0",
+	"version": "1.1.0",
     "unity": "2020.3",
     "keywords": ["Debug", "Input"],
     "category": "Debug",
 	"description": "Debug UI to display your input on a xBox Controller",
     "dependencies": {
-        "com.danieleverland.scriptableobjectarchitecture":"https://github.com/DanielEverland/ScriptableObject-Architecture.git#release/stable"
+        "com.danieleverland.scriptableobjectarchitecture":"https://github.com/DanielEverland/ScriptableObject-Architecture.git#release/stable",
+        "com.transmedia.debugmenu": "https://github.com/noctisyounis/DebugMenuPackage.git"
     }
 }

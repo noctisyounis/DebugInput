@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 166838849111266053}
   - component: {fileID: 166838849111266048}
-  - component: {fileID: 1747336129285878778}
   m_Layer: 0
   m_Name: DPadAnchor
   m_TagString: Untagged
@@ -46,26 +45,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166838849111266052}
   m_CullTransparentMesh: 1
---- !u!114 &1747336129285878778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166838849111266052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 197.7485
-    y: 156.94205
-    width: 13.932098
-    height: 13.93222
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &3412766092692506338
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,7 +58,6 @@ GameObject:
   - component: {fileID: 3412766092692506340}
   - component: {fileID: 166838848775533026}
   - component: {fileID: 166838848775533024}
-  - component: {fileID: 2140623475}
   m_Layer: 0
   m_Name: ButtonY
   m_TagString: Untagged
@@ -172,26 +150,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _event: {fileID: 11400000, guid: 0451bd8a0dd6c2642acf68bb95dbcb82, type: 2}
   _controlGraphic: {fileID: 3412766092692506340}
---- !u!114 &2140623475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3412766092692506338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 403.1538
-    y: 276.33234
-    width: 37.73101
-    height: 38.567444
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &3412766092895219058
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,7 +163,6 @@ GameObject:
   - component: {fileID: 3412766092895219060}
   - component: {fileID: 166838848589601394}
   - component: {fileID: 166838848589601392}
-  - component: {fileID: 1937537511}
   m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
@@ -298,26 +255,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _event: {fileID: 11400000, guid: bd6dd4558452c60468a3bb5a4c8b5176, type: 2}
   _controlGraphic: {fileID: 3412766092895219060}
---- !u!114 &1937537511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3412766092895219058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 304.9255
-    y: 242.02771
-    width: 26.336609
-    height: 26.204819
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &3412766092985188130
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,7 +268,6 @@ GameObject:
   - component: {fileID: 3412766092985188132}
   - component: {fileID: 166838849070057506}
   - component: {fileID: 166838849070057504}
-  - component: {fileID: 1847143347}
   m_Layer: 0
   m_Name: ButtonA
   m_TagString: Untagged
@@ -424,26 +360,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _event: {fileID: 11400000, guid: 66c60b654df2843419cdb6b1afa1756d, type: 2}
   _controlGraphic: {fileID: 3412766092985188132}
---- !u!114 &1847143347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3412766092985188130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 403.1538
-    y: 206.73753
-    width: 37.73101
-    height: 38.567413
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &3412766093209548727
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,7 +373,6 @@ GameObject:
   - component: {fileID: 3412766093209548729}
   - component: {fileID: 166838848896090303}
   - component: {fileID: 166838848896090301}
-  - component: {fileID: 1622713132}
   m_Layer: 0
   m_Name: ButtonB
   m_TagString: Untagged
@@ -550,26 +465,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _event: {fileID: 11400000, guid: 87eec0c71380ff948beabd2207c95dcf, type: 2}
   _controlGraphic: {fileID: 3412766093209548729}
---- !u!114 &1622713132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3412766093209548727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 437.0302
-    y: 242.6042
-    width: 35.77466
-    height: 35.595596
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &3412766093217346084
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,7 +478,6 @@ GameObject:
   - component: {fileID: 3412766093217346086}
   - component: {fileID: 166838848907167008}
   - component: {fileID: 166838848907167022}
-  - component: {fileID: 1615832761}
   m_Layer: 0
   m_Name: BumperLeft
   m_TagString: Untagged
@@ -676,26 +570,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _event: {fileID: 11400000, guid: 0f8b04016ac6f90479e066f31ad1a0f9, type: 2}
   _controlGraphic: {fileID: 3412766093217346086}
---- !u!114 &1615832761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3412766093217346084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 149.34035
-    y: 322.28583
-    width: 157.53284
-    height: 53.891968
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &3412766093623585879
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,7 +583,6 @@ GameObject:
   - component: {fileID: 3412766093623585881}
   - component: {fileID: 166838849572510559}
   - component: {fileID: 166838849572510557}
-  - component: {fileID: 1209432264}
   m_Layer: 0
   m_Name: ButtonX
   m_TagString: Untagged
@@ -802,26 +675,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _event: {fileID: 11400000, guid: a3df631afc4bc144e8e887be69980e93, type: 2}
   _controlGraphic: {fileID: 3412766093623585881}
---- !u!114 &1209432264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3412766093623585879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 367.3423
-    y: 241.11823
-    width: 37.73108
-    height: 38.567444
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &3412766093750836172
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,7 +687,6 @@ GameObject:
   - component: {fileID: 3412766093750836175}
   - component: {fileID: 3412766093750836174}
   - component: {fileID: 166838849445260534}
-  - component: {fileID: 166838849445260491}
   m_Layer: 0
   m_Name: TriggerRight
   m_TagString: Untagged
@@ -913,26 +765,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _axisValue: {fileID: 11400000, guid: 1b1a15b2a04e399488b5008aeec871d6, type: 2}
   _controlGraphic: {fileID: 3412766093750836174}
---- !u!114 &166838849445260491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3412766093750836172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 394.96054
-    y: 389.9428
-    width: 65.3443
-    height: 89.91144
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &3412766093787633979
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,7 +865,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3412766094211664341}
   - component: {fileID: 3412766094211664343}
-  - component: {fileID: 621010250}
   m_Layer: 0
   m_Name: JoystickRightAnchor
   m_TagString: Untagged
@@ -1069,26 +900,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3412766094211664340}
   m_CullTransparentMesh: 1
---- !u!114 &621010250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3412766094211664340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 336.10815
-    y: 163.7277
-    width: 73.82156
-    height: 73.45211
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &3412766094285025180
 GameObject:
   m_ObjectHideFlags: 0
@@ -1102,7 +913,6 @@ GameObject:
   - component: {fileID: 3412766094285025182}
   - component: {fileID: 166838849970133144}
   - component: {fileID: 166838849970133126}
-  - component: {fileID: 547568401}
   m_Layer: 0
   m_Name: Share
   m_TagString: Untagged
@@ -1195,26 +1005,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _event: {fileID: 11400000, guid: cc86e5d1a30e506479d0656ac837e8c4, type: 2}
   _controlGraphic: {fileID: 3412766094285025182}
---- !u!114 &547568401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3412766094285025180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 231.3118
-    y: 240.9338
-    width: 31.96698
-    height: 28.392624
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &3412766094344025010
 GameObject:
   m_ObjectHideFlags: 0
@@ -1227,7 +1017,6 @@ GameObject:
   - component: {fileID: 3412766094344025013}
   - component: {fileID: 3412766094344025012}
   - component: {fileID: 166838850431222960}
-  - component: {fileID: 166838850431222965}
   m_Layer: 0
   m_Name: TriggerLeft
   m_TagString: Untagged
@@ -1306,26 +1095,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _axisValue: {fileID: 11400000, guid: 00a82606c54abfc4ab11442bb64d51e8, type: 2}
   _controlGraphic: {fileID: 3412766094344025012}
---- !u!114 &166838850431222965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3412766094344025010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 140.55278
-    y: 389.33084
-    width: 65.07687
-    height: 89.54358
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &3412766094694838279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,7 +1108,6 @@ GameObject:
   - component: {fileID: 3412766094694838281}
   - component: {fileID: 166838850648737551}
   - component: {fileID: 166838850648737549}
-  - component: {fileID: 166838850648737546}
   m_Layer: 0
   m_Name: BumperRight
   m_TagString: Untagged
@@ -1432,26 +1200,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _event: {fileID: 11400000, guid: e6a6a6e2cbd8bab45b7a8d4422aea599, type: 2}
   _controlGraphic: {fileID: 3412766094694838281}
---- !u!114 &166838850648737546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3412766094694838279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 397.55185
-    y: 324.36218
-    width: 129.91641
-    height: 49.739166
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &3412766094727050598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,7 +1258,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3412766094789081457}
   - component: {fileID: 3412766094789081459}
-  - component: {fileID: 43937255}
   m_Layer: 0
   m_Name: JoystickLeftAnchor
   m_TagString: Untagged
@@ -1546,26 +1293,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3412766094789081456}
   m_CullTransparentMesh: 1
---- !u!114 &43937255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3412766094789081456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99b71f8ab46d5de4b9f9ccdcb27a5105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manualRefresh: 0
-  anchorRect:
-    serializedVersion: 2
-    x: 134.45285
-    y: 238.96149
-    width: 77.78073
-    height: 79.58453
-  anchorVector: {x: 0, y: 0}
 --- !u!1 &6765503699713979613
 GameObject:
   m_ObjectHideFlags: 0
