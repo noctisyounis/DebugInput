@@ -7,7 +7,5 @@
     "category": "Debug",
 	"description": "Debug UI to display your input on a xBox Controller",
     "dependencies": {
-        "com.danieleverland.scriptableobjectarchitecture":"git+https://github.com/DanielEverland/ScriptableObject-Architecture.git#release/stable",
-        "com.transmedia.debugmenu": "git+https://github.com/noctisyounis/DebugMenuPackage.git"
     }
 }
