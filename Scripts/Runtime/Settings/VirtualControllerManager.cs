@@ -19,6 +19,17 @@ namespace VirtualController
             SendColorInfos();    
         }
 
+        private void Start()
+        {
+            if(_settings == null)
+            {
+                SetControllerColor(Color.white);
+                return;
+            }
+
+            SendColorInfos();  
+        }
+
         private void SendColorInfos()
         {
             SetControllerColor(_settings.m_controllerColor);
